@@ -10,6 +10,6 @@ The script for LoRA fine-tuning based on the Llama2-7b can be found at ./Llama-m
 
 The ./Llama-main/inference/ directory contains scripts for model testing. These scripts enable the generation of report summaries from descriptive findings produced by different models.
 
-**Evaluation of Model Performance and Comparison**
+**Model Evaluation and Comparison**
 
 The ./Llama-main/metrics directory includes scripts for evaluating model performance and comparing various models. These scripts provide analyses of t-test and the calculation of F1 scores.
