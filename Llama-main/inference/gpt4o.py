@@ -28,7 +28,7 @@ def gpt_generation(radiology_findings):
   completion = client.chat.completions.create(
     model="gpt-4o", 
     messages=[
-      {"role": "system", "content": "你是一名放射医生，你要对下面自由撰写的影像学findings进行impression的撰写。impression要分点展示。impression之后要换行进行病人的诊断，只需要输出诊断关键词。"},
+      {"role": "system", "content": "你是一名放射医生，你要对下面自由撰写的影像学findings进行impression的撰写。impression要分点展示。"},
       {"role": "user", "content": f"{radiology_findings}"}
 
     ]
